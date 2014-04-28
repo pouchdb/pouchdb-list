@@ -1,0 +1,7 @@
+{
+	"name": "pouchdb-list",
+	"main": "index.json",
+	"browser": {
+		"bluebird": "lie"
+	}
+}
