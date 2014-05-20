@@ -1,11 +1,7 @@
 {
 	"name": "pouchdb-list",
 	"main": "index.json",
-	"browser": {
-		"bluebird": "lie"
-	},
 	"dependencies": {
-		"bluebird": "*",
 		"extend": "*",
 		"couchdb-objects": "*",
 		"couchdb-render": "*",
@@ -13,8 +9,7 @@
 	},
 	"devDependencies": {
 		"browserify": "*",
-		"uglify-js": "*",
-		"lie": "*"
+		"uglify-js": "*"
 	},
 	"scripts": {
 		"build-js": "mkdir -p ../../dist && browserify index.js -s List -o ../../dist/pouchdb-list.js",
