@@ -2,17 +2,21 @@
 	"name": "pouchdb-list",
 	"main": "index.json",
 	"dependencies": {
-		"extend": "*",
+		"pouchdb-extend": "*",
 		"couchdb-objects": "*",
 		"couchdb-render": "*",
 		"promise-nodify": "*"
 	},
 	"devDependencies": {
-		"browserify": "*",
-		"uglify-js": "*"
+		"es3ify": "*"
 	},
 	"scripts": {
 		"build-js": "mkdir -p ../../dist && browserify index.js -s List -o ../../dist/pouchdb-list.js",
 		"build": "npm run build-js; cd ../../dist; uglifyjs pouchdb-list.js -mc > pouchdb-list.min.js"
+	},
+	"browserify": {
+		"transform": [
+			"es3ify"
+		]
 	}
 }
