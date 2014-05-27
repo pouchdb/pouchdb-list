@@ -5,6 +5,7 @@
 		"pouchdb-extend": "*",
 		"couchdb-objects": "*",
 		"couchdb-render": "*",
+		"couchdb-req-http-query": "*",
 		"promise-nodify": "*"
 	},
 	"devDependencies": {
