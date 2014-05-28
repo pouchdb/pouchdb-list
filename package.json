@@ -2,7 +2,7 @@
 	"name": "pouchdb-list",
 	"main": "index.json",
 	"dependencies": {
-		"pouchdb-extend": "*",
+		"extend": "*",
 		"couchdb-objects": "*",
 		"couchdb-render": "*",
 		"couchdb-req-http-query": "*",
