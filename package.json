@@ -1,11 +1,16 @@
 {
 	"name": "pouchdb-list",
 	"main": "index.json",
+	"description": "A PouchDB plug-in that allows you to re-use your CouchDB list functions on the client side.",
+	"repository": {
+		"type": "bzr",
+		"url": "http://bazaar.launchpad.net/~marten-de-vries/python-pouchdb/0.x"
+	},
 	"dependencies": {
 		"extend": "*",
 		"couchdb-objects": "*",
 		"couchdb-render": "*",
-		"couchdb-req-http-query": "*",
+		"pouchdb-req-http-query": "*",
 		"promise-nodify": "*"
 	},
 	"devDependencies": {
