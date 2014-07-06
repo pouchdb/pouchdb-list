@@ -1,6 +1,6 @@
 {
 	"name": "pouchdb-list",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"main": "index.json",
 	"description": "A PouchDB plug-in that allows you to re-use your CouchDB list functions on the client side.",
 	"repository": {
@@ -25,7 +25,8 @@
 		"couchdb-render": "^0.1.0",
 		"pouchdb-req-http-query": "^0.1.0",
 		"promise-nodify": "^1.0.0",
-		"pouchdb-promise": "^0.0.0"
+		"pouchdb-promise": "^0.0.0",
+		"pouchdb-plugin-error": "^0.2.0"
 	},
 	"devDependencies": {
 		"browserify": "^4.1.8",
